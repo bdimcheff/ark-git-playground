@@ -1,0 +1,35 @@
+{
+	"apiVersion": "v1",
+	"kind": "Service",
+	"metadata": {
+		"annotations": {
+			"kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"nginx\"},\"name\":\"my-nginx\",\"namespace\":\"nginx-example\"},\"spec\":{\"ports\":[{\"port\":80,\"targetPort\":80}],\"selector\":{\"app\":\"nginx\"},\"type\":\"LoadBalancer\"}}\n"
+		},
+		"creationTimestamp": "2018-01-02T23:49:49Z",
+		"labels": {
+			"app": "nginx"
+		},
+		"name": "my-nginx",
+		"namespace": "nginx-example",
+		"resourceVersion": "7215",
+		"selfLink": "/api/v1/namespaces/nginx-example/services/my-nginx",
+		"uid": "9ec1a68d-f017-11e7-8c1a-42010a800249"
+	},
+	"spec": {
+		"clusterIP": "10.43.249.165",
+		"externalTrafficPolicy": "Cluster",
+		"ports": [
+			{
+				"nodePort": 30776,
+				"port": 80,
+				"protocol": "TCP",
+				"targetPort": 80
+			}
+		],
+		"selector": {
+			"app": "nginx"
+		},
+		"sessionAffinity": "None",
+		"type": "LoadBalancer"
+	}
+}

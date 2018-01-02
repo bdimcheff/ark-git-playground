@@ -1,0 +1,49 @@
+{
+	"apiVersion": "v1",
+	"kind": "Endpoints",
+	"metadata": {
+		"creationTimestamp": "2018-01-02T23:49:49Z",
+		"labels": {
+			"app": "nginx"
+		},
+		"name": "my-nginx",
+		"namespace": "nginx-example",
+		"resourceVersion": "7256",
+		"selfLink": "/api/v1/namespaces/nginx-example/endpoints/my-nginx",
+		"uid": "9ec2fea9-f017-11e7-8c1a-42010a800249"
+	},
+	"subsets": [
+		{
+			"addresses": [
+				{
+					"ip": "10.40.0.10",
+					"nodeName": "gke-noah-default-pool-abf360dd-3kxh",
+					"targetRef": {
+						"kind": "Pod",
+						"name": "nginx-deployment-569477d6d8-5sm8m",
+						"namespace": "nginx-example",
+						"resourceVersion": "7255",
+						"uid": "c44d89f4-f017-11e7-8c1a-42010a800249"
+					}
+				},
+				{
+					"ip": "10.40.1.13",
+					"nodeName": "gke-noah-default-pool-abf360dd-l90f",
+					"targetRef": {
+						"kind": "Pod",
+						"name": "nginx-deployment-569477d6d8-wtgp2",
+						"namespace": "nginx-example",
+						"resourceVersion": "7160",
+						"uid": "9eaab3b2-f017-11e7-8c1a-42010a800249"
+					}
+				}
+			],
+			"ports": [
+				{
+					"port": 80,
+					"protocol": "TCP"
+				}
+			]
+		}
+	]
+}
