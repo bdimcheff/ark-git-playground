@@ -25,7 +25,7 @@
 				"uid": "9ea73537-f017-11e7-8c1a-42010a800249"
 			}
 		],
-		"resourceVersion": "7257",
+		"resourceVersion": "7634",
 		"selfLink": "/apis/apps/v1beta2/namespaces/nginx-example/replicasets/nginx-deployment-569477d6d8",
 		"uid": "9ea83a4a-f017-11e7-8c1a-42010a800249"
 	},

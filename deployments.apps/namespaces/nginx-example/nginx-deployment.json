@@ -13,7 +13,7 @@
 		},
 		"name": "nginx-deployment",
 		"namespace": "nginx-example",
-		"resourceVersion": "7258",
+		"resourceVersion": "7635",
 		"selfLink": "/apis/apps/v1beta1/namespaces/nginx-example/deployments/nginx-deployment",
 		"uid": "9ea73537-f017-11e7-8c1a-42010a800249"
 	},

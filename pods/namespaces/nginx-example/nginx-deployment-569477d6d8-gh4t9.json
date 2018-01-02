@@ -3,15 +3,15 @@
 	"kind": "Pod",
 	"metadata": {
 		"annotations": {
-			"kubernetes.io/created-by": "{\"kind\":\"SerializedReference\",\"apiVersion\":\"v1\",\"reference\":{\"kind\":\"ReplicaSet\",\"namespace\":\"nginx-example\",\"name\":\"nginx-deployment-569477d6d8\",\"uid\":\"9ea83a4a-f017-11e7-8c1a-42010a800249\",\"apiVersion\":\"extensions\",\"resourceVersion\":\"7162\"}}\n"
+			"kubernetes.io/created-by": "{\"kind\":\"SerializedReference\",\"apiVersion\":\"v1\",\"reference\":{\"kind\":\"ReplicaSet\",\"namespace\":\"nginx-example\",\"name\":\"nginx-deployment-569477d6d8\",\"uid\":\"9ea83a4a-f017-11e7-8c1a-42010a800249\",\"apiVersion\":\"extensions\",\"resourceVersion\":\"7257\"}}\n"
 		},
-		"creationTimestamp": "2018-01-02T23:50:52Z",
+		"creationTimestamp": "2018-01-02T23:55:32Z",
 		"generateName": "nginx-deployment-569477d6d8-",
 		"labels": {
 			"app": "nginx",
 			"pod-template-hash": "1250338284"
 		},
-		"name": "nginx-deployment-569477d6d8-5sm8m",
+		"name": "nginx-deployment-569477d6d8-gh4t9",
 		"namespace": "nginx-example",
 		"ownerReferences": [
 			{
@@ -23,9 +23,9 @@
 				"uid": "9ea83a4a-f017-11e7-8c1a-42010a800249"
 			}
 		],
-		"resourceVersion": "7255",
-		"selfLink": "/api/v1/namespaces/nginx-example/pods/nginx-deployment-569477d6d8-5sm8m",
-		"uid": "c44d89f4-f017-11e7-8c1a-42010a800249"
+		"resourceVersion": "7632",
+		"selfLink": "/api/v1/namespaces/nginx-example/pods/nginx-deployment-569477d6d8-gh4t9",
+		"uid": "6adf2757-f018-11e7-8c1a-42010a800249"
 	},
 	"spec": {
 		"containers": [

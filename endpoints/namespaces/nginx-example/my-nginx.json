@@ -8,7 +8,7 @@
 		},
 		"name": "my-nginx",
 		"namespace": "nginx-example",
-		"resourceVersion": "7256",
+		"resourceVersion": "7633",
 		"selfLink": "/api/v1/namespaces/nginx-example/endpoints/my-nginx",
 		"uid": "9ec2fea9-f017-11e7-8c1a-42010a800249"
 	},
@@ -16,14 +16,14 @@
 		{
 			"addresses": [
 				{
-					"ip": "10.40.0.10",
+					"ip": "10.40.0.11",
 					"nodeName": "gke-noah-default-pool-abf360dd-3kxh",
 					"targetRef": {
 						"kind": "Pod",
-						"name": "nginx-deployment-569477d6d8-5sm8m",
+						"name": "nginx-deployment-569477d6d8-gh4t9",
 						"namespace": "nginx-example",
-						"resourceVersion": "7255",
-						"uid": "c44d89f4-f017-11e7-8c1a-42010a800249"
+						"resourceVersion": "7632",
+						"uid": "6adf2757-f018-11e7-8c1a-42010a800249"
 					}
 				},
 				{
