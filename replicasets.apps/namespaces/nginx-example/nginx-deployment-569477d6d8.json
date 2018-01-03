@@ -3,12 +3,12 @@
 	"kind": "ReplicaSet",
 	"metadata": {
 		"annotations": {
-			"deployment.kubernetes.io/desired-replicas": "2",
-			"deployment.kubernetes.io/max-replicas": "3",
+			"deployment.kubernetes.io/desired-replicas": "5",
+			"deployment.kubernetes.io/max-replicas": "7",
 			"deployment.kubernetes.io/revision": "1"
 		},
 		"creationTimestamp": "2018-01-02T23:49:49Z",
-		"generation": 1,
+		"generation": 2,
 		"labels": {
 			"app": "nginx",
 			"pod-template-hash": "1250338284"
@@ -25,12 +25,12 @@
 				"uid": "9ea73537-f017-11e7-8c1a-42010a800249"
 			}
 		],
-		"resourceVersion": "7634",
+		"resourceVersion": "8119",
 		"selfLink": "/apis/apps/v1beta2/namespaces/nginx-example/replicasets/nginx-deployment-569477d6d8",
 		"uid": "9ea83a4a-f017-11e7-8c1a-42010a800249"
 	},
 	"spec": {
-		"replicas": 2,
+		"replicas": 5,
 		"selector": {
 			"matchLabels": {
 				"app": "nginx",

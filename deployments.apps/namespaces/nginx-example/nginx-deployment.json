@@ -7,19 +7,19 @@
 			"kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"apps/v1beta1\",\"kind\":\"Deployment\",\"metadata\":{\"annotations\":{},\"name\":\"nginx-deployment\",\"namespace\":\"nginx-example\"},\"spec\":{\"replicas\":2,\"template\":{\"metadata\":{\"labels\":{\"app\":\"nginx\"}},\"spec\":{\"containers\":[{\"image\":\"nginx:1.7.9\",\"name\":\"nginx\",\"ports\":[{\"containerPort\":80}]}]}}}}\n"
 		},
 		"creationTimestamp": "2018-01-02T23:49:49Z",
-		"generation": 1,
+		"generation": 2,
 		"labels": {
 			"app": "nginx"
 		},
 		"name": "nginx-deployment",
 		"namespace": "nginx-example",
-		"resourceVersion": "7635",
+		"resourceVersion": "8120",
 		"selfLink": "/apis/apps/v1beta1/namespaces/nginx-example/deployments/nginx-deployment",
 		"uid": "9ea73537-f017-11e7-8c1a-42010a800249"
 	},
 	"spec": {
 		"progressDeadlineSeconds": 600,
-		"replicas": 2,
+		"replicas": 5,
 		"revisionHistoryLimit": 2,
 		"selector": {
 			"matchLabels": {

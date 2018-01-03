@@ -8,7 +8,7 @@
 		},
 		"name": "my-nginx",
 		"namespace": "nginx-example",
-		"resourceVersion": "7633",
+		"resourceVersion": "8118",
 		"selfLink": "/api/v1/namespaces/nginx-example/endpoints/my-nginx",
 		"uid": "9ec2fea9-f017-11e7-8c1a-42010a800249"
 	},
@@ -27,6 +27,17 @@
 					}
 				},
 				{
+					"ip": "10.40.0.12",
+					"nodeName": "gke-noah-default-pool-abf360dd-3kxh",
+					"targetRef": {
+						"kind": "Pod",
+						"name": "nginx-deployment-569477d6d8-dnxb4",
+						"namespace": "nginx-example",
+						"resourceVersion": "8107",
+						"uid": "41518fb2-f019-11e7-8c1a-42010a800249"
+					}
+				},
+				{
 					"ip": "10.40.1.13",
 					"nodeName": "gke-noah-default-pool-abf360dd-l90f",
 					"targetRef": {
@@ -35,6 +46,28 @@
 						"namespace": "nginx-example",
 						"resourceVersion": "7160",
 						"uid": "9eaab3b2-f017-11e7-8c1a-42010a800249"
+					}
+				},
+				{
+					"ip": "10.40.1.14",
+					"nodeName": "gke-noah-default-pool-abf360dd-l90f",
+					"targetRef": {
+						"kind": "Pod",
+						"name": "nginx-deployment-569477d6d8-mwh89",
+						"namespace": "nginx-example",
+						"resourceVersion": "8117",
+						"uid": "414ff363-f019-11e7-8c1a-42010a800249"
+					}
+				},
+				{
+					"ip": "10.40.1.15",
+					"nodeName": "gke-noah-default-pool-abf360dd-l90f",
+					"targetRef": {
+						"kind": "Pod",
+						"name": "nginx-deployment-569477d6d8-5ltkf",
+						"namespace": "nginx-example",
+						"resourceVersion": "8113",
+						"uid": "41520e6b-f019-11e7-8c1a-42010a800249"
 					}
 				}
 			],
